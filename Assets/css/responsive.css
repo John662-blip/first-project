@@ -1,0 +1,297 @@
+@media (max-width:992px) and (min-width:768px){
+    #header .btn-acc .account-b a,
+    #header .btn-acc .account-a a{
+        padding: 0px 3px;
+    }
+    #header .btn-acc .account-b,
+    #header .btn-acc .account-a{
+        width: 86.5px;
+        height: 32px;
+    }
+    #content .head-text{
+        margin-top: 0px;
+    }
+    #content .logo{
+        text-align: center;
+    }
+    #content .logo .mt-l{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content .background-b,
+    #content .background-a{
+        margin-top: 70px;
+    } 
+    #footer{
+        margin-top: 70px;
+    }
+    #content .header-bg{
+        width: 242px;
+    }
+    #content .three-mobile{
+        width:100%;
+    }
+    #content .setup .rp-l{
+        width: 197px;
+    }
+    #footer .boder-f {
+        flex-direction: column;
+    }
+    #footer .body-bg{
+        margin-bottom: 0px;
+    }
+    .w-300{
+        width:350px;
+    }
+    .mt-x{
+        margin-top: 30px;
+    }
+    #footer .boder-bottom{
+        margin-top: 35px;
+    }
+    #footer{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:768px){
+    .delete{
+        visibility: hidden;
+        width: 0px;
+    }   
+    .none{
+        display: none;
+    }
+    #header .all {
+        width: 90%;
+        margin-left: 5%;
+        position: relative;
+    }
+    #header .menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 34px;
+        margin-top: 7px;
+        right: 0;
+    }
+    #header .account{
+        height: 25px;
+    }
+    .logo-h{
+        visibility: hidden !important;
+    }
+    .w{
+        width: 0 !important;
+    }
+    .flex{
+        animation: 1.5s fadein linear;
+        display: flex;
+    }
+    #header .btn-acc{
+        margin-right: auto;
+    }
+    #header .account-b {
+        margin-top: 2px;
+    }
+    #header .account-b a{
+        padding:0px 6px;
+    }
+    .f-col{
+        flex-direction: column;
+    }
+    .block{
+        display: block;
+    }
+    #content .header-content {
+        max-width: 500px;
+        min-height: 100px;
+        font-size: 40px;
+        line-height: 53px;
+    }
+    #header .nav{
+        margin-left: 0px;
+        margin-right: -32px;
+    }
+    #content .container {
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+    #content .background-b {
+        flex-direction: column;
+    }
+    #content .border-container {
+        flex-direction: column;
+    }
+    #footer {
+        padding-bottom: 20px;
+    }
+    #footer {
+        margin-top: 70px;
+    }
+    #footer .boder-f {
+        flex-direction: column;
+    }
+    #footer .boder-bottom {
+        margin-top: 35px;
+    }
+    #footer .body-bg {
+        margin-bottom: 0px;
+    }
+    .w-300 {
+        max-width: 350px;
+    }
+    .mt-x {
+        margin-top: 30px;
+    }
+    #content .logo-uihut{
+        margin-top: 30px;
+    }
+    #content .head-text{
+        padding-top: 17%;
+    }
+    #footer .none{
+        display: none;
+    }
+    #footer .boder-bottom{
+        display: block;
+    }
+    .mtt{
+        margin: 5px 20px;
+
+    }
+    .cannn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cann{
+        margin-left: 50%;
+        transform: translate(-50%,0);
+    }
+    #content .container-a{
+        margin-top: 0px;
+    }
+    #content .content-bg{
+        margin-top: 20px;
+    }
+    #content .head-a{
+        margin-top: 20px;
+    }
+    .img-a{
+        margin-top: 35px;
+    }
+    #content .body-bg{
+        max-width: 250px;
+    }
+    #content .hiden{
+        display: none;
+    }
+    #content .line{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    #content .header-bg{
+        max-width: 250px;
+    }
+    .p-20{
+        padding-bottom: 20px;;
+    }
+    .menu-chose{
+        background: #FFFFFF;
+        filter: blur(1px);
+    }
+    .chose{
+        justify-content: space-evenly;
+        display: flex;
+    }
+    .hien{
+        display: block !important;
+        animation: fadein linear 1s;
+    }
+    .an{
+        display: none !important;
+    }
+    .opci{
+        opacity: 0.5;
+    }
+    .box-sha{
+        box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+    }
+    #content .nnn{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+        
+    }
+    @media (max-width:360px) {
+        #header .nav li {
+            padding: 6px 0px;
+            margin-left: 5px;
+        }
+        .chose{
+            width: 90%;
+        }
+        #content .header-content{
+            padding: 0px 10px;
+        }
+        #content .download button{
+            width: 93px;
+            height: 45px;
+        }
+        #content .content-btn .head{
+            font-size: 0px;
+        }
+        #content .name-btn{
+            font-size: 12px;
+            width: 68%;
+        }
+        #content .boder-img {
+            margin-left: 8%;
+            margin-right: 8%;
+            margin-top: -188px;
+        }
+        #content .head-text {
+            padding-top: 17%;
+            padding: 17% 7% 0px;
+        }
+        #content .logo {
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        #content .logo-uihut a{
+            display: flex;
+        }
+        #content .logo-uihut img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #content .header-bg {
+            font-size: 22px;
+            padding: 0px 6% 0px;
+        }
+        #content .body-bg {
+            padding: 0px 6% 0px;
+            font-size: 15px;
+        }
+        #content .img-a {
+            width: 60%;
+        }
+        #content .setup{
+            width: 71%;
+        }
+        @media (min-width:320px) {
+
+            #header .nav li {
+            margin-left: 8px;
+            }
+        }
+       
+
+    } 
+}
